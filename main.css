@@ -1,0 +1,74 @@
+html {
+    width: 100%;
+    height: 100%;
+
+}
+
+body {
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/fc/fa/c3/fcfac3884a8897dd7e19acb9c50c74bb.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Bungee Hairline', cursive;
+}
+
+.container {
+    padding: 25px;
+    margin: 25px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 3px;
+}
+
+#author {
+  font-size: 12px;
+  font-style: italic;
+}
+.qbox {
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: bold;
+    opacity: 1.0;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#tweet {
+    color: white;
+    background-color: rgb(34, 149, 204);
+    float: right;
+    font-size: 16px;
+
+}
+
+#tweet:hover {
+    background-color: rgb(33, 149, 250);
+    color: white;
+}
+
+#getQuote {
+    color: white;
+    background-color: green;
+    float: left;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+#getQuote:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
